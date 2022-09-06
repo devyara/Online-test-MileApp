@@ -1,1 +1,11 @@
-
+Logo : //*[@class="logo-img"]
+FormLogin : //*[@class="login_card"]
+inputNameOrg : //*[@name="organization"]
+inputEmail-Username : //input[@name='email or username']
+inputPass: //input[@name='password']
+verPartEU : (//*[@class="el-form inputLogin"])[2]
+verEUfield : (//*[@class="el-form-item__content"])[2]
+verInputEU : (//*[@class="el-input"])[2]
+loading : //*[@class="el-loading-mask"]
+buttonLogin : //*[@class="el-button button el-button--primary"]
+MassageLoginFailed_errorMessage_Login : //*[@class="el-alert el-alert--error is-light"]
